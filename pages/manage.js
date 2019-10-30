@@ -1,6 +1,9 @@
+import MainLayout from '../layouts/MainLayout';
 const manage = () => {
     return (
-        <div>manage</div>
+        <MainLayout>
+            <div>manage</div>
+            </MainLayout>
     )
 }
 
